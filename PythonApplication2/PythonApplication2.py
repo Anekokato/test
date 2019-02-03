@@ -13,7 +13,6 @@ class Rational_fractions:
                 num %= denom
             else:
                 denom%=num
-        print(num+denom)
         return num+denom
 
     def __add__(self, another_fraction):
